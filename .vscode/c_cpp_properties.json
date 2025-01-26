@@ -1,0 +1,35 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/kwanwaipang/catkin_ws/devel/include/**",
+        "/home/kwanwaipang/catkin_ws_dvs/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/kwanwaipang/catkin_ws_dvs/src/EVIO/camera_model/include/**",
+        "/home/kwanwaipang/catkin_ws_dvs/src/EVIO/dvs_reconstruction/include/**",
+        "/home/kwanwaipang/catkin_ws_dvs/src/eigen_checks/include/**",
+        "/home/kwanwaipang/catkin_ws_dvs/src/EVIO/evio_mapping/include/**",
+        "/home/kwanwaipang/catkin_ws_dvs/src/EVIO/evo_utils/include/**",
+        "/home/kwanwaipang/catkin_ws/src/FAST-LIVO2/include/**",
+        "/home/kwanwaipang/catkin_ws_dvs/src/minkindr/minkindr/include/**",
+        "/home/kwanwaipang/catkin_ws_dvs/src/minkindr_ros/minkindr_conversions/include/**",
+        "/home/kwanwaipang/catkin_ws/src/rpg_vikit/vikit_common/include/**",
+        "/home/kwanwaipang/catkin_ws/src/rpg_vikit/vikit_ros/include/**",
+        "/home/kwanwaipang/catkin_ws_dvs/src/EVIO/voxblox/voxblox/include/**",
+        "/home/kwanwaipang/catkin_ws_dvs/src/EVIO/voxblox/voxblox_ros/include/**",
+        "/home/kwanwaipang/catkin_ws_dvs/src/EVIO/voxblox/voxblox_rviz_plugin/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
