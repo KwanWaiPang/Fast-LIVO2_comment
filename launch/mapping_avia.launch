@@ -16,7 +16,7 @@
 	<node pkg="image_transport" type="republish" name="republish" args="compressed in:=/left_camera/image raw out:=/left_camera/image" output="screen" respawn="true"/>
 
 	<!-- 运行rosbag -->
-	<arg name="bag_name" value="/home/kwanwaipang/dataset/CBD_Building_01.bag"/>
+	<arg name="bag_name" value="/home/kwanwaipang/dataset/CBD_Building_02.bag"/>
 	  <node pkg="rosbag" type="play" name="rosbag" args="-r 1.0 --clock --pause $(arg bag_name)" launch-prefix="gnome-terminal -x"/>
 
 launch-prefix="gdb -ex run --args"
